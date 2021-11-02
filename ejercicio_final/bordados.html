@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio_final</title>
+    <link rel="shortcut icon" href="imgs/Logo.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/bordados.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!--navegador-->
+<header class="cd-auto-hide-header">
+	<div class="logo">MAKE IT<U>!</U></div>
+
+	<nav class="cd-primary-nav">
+		<a href="#cd-navigation" class="nav-trigger">
+			<span>
+				<em aria-hidden="true"></em>
+			</span>
+		</a> <!-- .nav-trigger -->
+
+		<ul id="cd-navigation">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Prendas.html">Prendas</a></li>
+            <li><a href="bordados.html">Bordados</a></li>
+            <li><a href="hacerlo.html">¿Cómo hacerlo?</a></li>
+            <li><a href="nosotras.html">Nosotras</a></li>
+		</ul>
+	</nav>
+</header>
+<!--fin header-->
+
+<!-- Slider -->
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <a class="swiper-slide" href="imgs/uno.jpeg" data-lightbox="roadtrip"><img src="imgs/bordado1.jpg" /></a>
+      <a class="swiper-slide" href="imgs/dos.jpeg" data-lightbox="roadtrip"><img src="imgs/bordado2.jpg" /></a>
+      <a class="swiper-slide" href="imgs/tres.jpg" data-lightbox="roadtrip"><img src="imgs/bordado3.jpg" /></a>
+      <a class="swiper-slide" href="imgs/cuatro.jpeg" data-lightbox="roadtrip"><img src="imgs/bordado4.jpg" /></a>
+      <a class="swiper-slide" href="imgs/cinco.jpg" data-lightbox="roadtrip"><img src="imgs/bordado5.jpg" /></a>
+      <a class="swiper-slide" href="imgs/seis.jpeg" data-lightbox="roadtrip"><img src="imgs/bordado6.jpg" /></a>
+      <a class="swiper-slide" href="imgs/siete.jpeg" data-lightbox="roadtrip"><img src="imgs/bordado7.jpg" /></a>
+      <a class="swiper-slide" href="imgs/ocho.jpeg" data-lightbox="roadtrip"><img src="imgs/bordado8.jpg" /></a>
+      <a class="swiper-slide" href="imgs/nueve.jpeg" data-lightbox="roadtrip"><img src="imgs/bordado9.jpg" /></a>
+      <a class="swiper-slide" href="imgs/diez.jpeg" data-lightbox="roadtrip"><img src="imgs/bordado10.jpg" /></a>
+      <a class="swiper-slide" href="imgs/once.jpeg" data-lightbox="roadtrip"><img src="imgs/bordado11.jpg" /></a>
+      <a class="swiper-slide" href="imgs/doce.jpg" data-lightbox="roadtrip"><img src="imgs/bordado12.jpg" /></a>
+      <a class="swiper-slide" href="imgs/trece.jpeg" data-lightbox="roadtrip"><img src="imgs/bordado13.jpg" /></a>
+      <a class="swiper-slide" href="imgs/catorce.jpeg" data-lightbox="roadtrip"><img src="imgs/bordado14.jpg" /></a>
+      <a class="swiper-slide" href="imgs/quince.jpg" data-lightbox="roadtrip"><img src="imgs/bordado15.jpg" /></a>
+      <a class="swiper-slide" href="imgs/diezyseis.jpg" data-lightbox="roadtrip"><img src="imgs/bordado16.jpg" /></a>
+      <a class="swiper-slide" href="imgs/diezysiete.jpeg" data-lightbox="roadtrip"><img src="imgs/bordado17.jpg" /></a>
+      <a class="swiper-slide" href="imgs/diezyocho.jpeg" data-lightbox="roadtrip"><img src="imgs/bordado18.jpg" /></a>
+      <a class="swiper-slide" href="imgs/diezynueve.jpeg" data-lightbox="roadtrip"><img src="imgs/bordado19.jpg" /></a>
+      <a class="swiper-slide" href="imgs/veinte.jpeg" data-lightbox="roadtrip"><img src="imgs/bordado20.jpg" /></a>
+      <a class="swiper-slide" href="imgs/veinteuno.jpg" data-lightbox="roadtrip"><img src="imgs/bordado21.jpg" /></a>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <h1>CLICK EN LA IMAGEN PARA VER MÁS</h1>>
+
+<!--Javascrip-->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+        });
+    </script>
+<!--fin slider-->
+
+<!--footer-->
+    <div class="footer">
+        <footer>
+            <span class="logo">MAKE IT<u>!</u></span>
+            <div class="socialmedia">
+                <a href="#"><img src="imgs/logo1.png" alt="instagram"></a>
+                <a href="#"><img src="imgs/logo2.png" alt="facebook"></a>
+                <a href="#"><img src="imgs/logo3.png" alt="whatsapp"></a>
+            </div>
+        </footer>
+    </div>
+<!--fin footer-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<script>if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');</script>
+
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+<!--Javascrip-->
+<script src="js/lightbox.js"></script>
+
+</body>
+</html>

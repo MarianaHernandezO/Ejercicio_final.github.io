@@ -1,0 +1,515 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Anton', sans-serif;
+}
+
+/*paso1*/
+.paso1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    background-color: #91ccd0;
+    border-radius: 20px;
+}
+
+.paso1 .hero_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.paso1 .img_logo{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 40px;
+}
+
+.paso1 img{
+    width: 100%;
+    height: auto;
+}
+
+.paso1 .hero_info h1{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    flex-basis: 0;
+}
+
+.paso1 .hero_info p{
+    text-align: center;
+    font-family: 'Yaldevi', sans-serif;
+    flex-basis: 0;
+}
+
+/*fin paso1*/
+
+/*paso2*/
+.paso2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    background-color: #91ccd0;
+    border-radius: 20px;
+}
+
+.paso2 .hero_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.paso2 .img_logo{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 40px;
+}
+
+.paso2 img{
+    width: 100%;
+    height: auto;
+}
+
+.paso2 .hero_info h1{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    flex-basis: 0;
+}
+
+.paso2 .hero_info p{
+    text-align: center;
+    font-family: 'Yaldevi', sans-serif;
+    flex-basis: 0;
+}
+
+/*fin paso2*/
+
+/*paso3*/
+.paso3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    background-color: #91ccd0;
+    border-radius: 20px;
+}
+
+.paso3 .hero_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.paso3 .img_logo{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 40px;
+}
+
+.paso3 img{
+    width: 100%;
+    height: auto;
+}
+
+.paso3 .hero_info h1{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    flex-basis: 0;
+}
+
+.paso3 .hero_info p{
+    text-align: center;
+    font-family: 'Yaldevi', sans-serif;
+    flex-basis: 0;
+}
+
+/*fin paso3*/
+
+/*footer*/
+footer{
+    border-radius: 15px 15px 0px 0px;
+    padding: 20px;
+    width: 100%;
+    background-color: black;
+    color: #91ccd0;
+}
+
+footer .logo{
+    text-align: center;
+    display: block;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+footer .socialmedia{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer .socialmedia a{
+    margin: 20px;
+}
+
+footer .socialmedia a img{
+    width: 30px;
+    height: 30px;
+}
+/*fin footer*/
+    
+/* ##Dispositivo = Android, iPhone 6/7/8 - plus, x, 5/SE, Surface Duo (vertical) 320px to 730px */
+
+@media (min-width: 320px) and (max-width: 730px)  {
+
+    /*paso1*/
+    .paso1{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-top: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #91ccd0;
+        border-radius: 20px;
+    }
+
+    .paso1 .img_logo{
+        flex-grow: 1;
+        flex-basis: 0;
+        padding: 30px;
+    }
+
+    .paso1 .hero_info h1{
+        color: white;
+        font-size: 20px;
+        letter-spacing: 2px;
+        flex-basis: 0;
+    }
+
+    .paso1 .hero_info p{
+        text-align: center;
+        font-family: 'Yaldevi', sans-serif;
+        flex-basis: 0;
+        margin: 10px 10px 20px 10px;
+    }
+/*fin paso1*/
+
+/*paso2*/
+.paso2{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #91ccd0;
+    border-radius: 20px;
+}
+
+.paso2 .img_logo{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 30px;
+}
+
+.paso2 .hero_info h1{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    flex-basis: 0;
+}
+
+.paso2 .hero_info p{
+    text-align: center;
+    font-family: 'Yaldevi', sans-serif;
+    flex-basis: 0;
+    margin: 10px 10px 20px 10px;
+}
+/*fin paso2*/
+
+/*paso3*/
+.paso3{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: #91ccd0;
+    border-radius: 20px;
+}
+
+.paso3 .img_logo{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 30px;
+}
+
+.paso3 .hero_info h1{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    flex-basis: 0;
+}
+
+.paso3 .hero_info p{
+    text-align: center;
+    font-family: 'Yaldevi', sans-serif;
+    flex-basis: 0;
+    margin: 10px 10px 20px 10px;
+}
+/*fin paso3*/
+}
+
+/* ##Dispositivo = iPad, iPad pro de 731px a 1024px */
+
+@media (min-width: 731px) and (max-width: 1024px) {
+
+    /*paso1*/
+    .paso1{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #91ccd0;
+        border-radius: 20px;
+    }
+
+    .paso1 .img_logo{
+        flex-grow: 1;
+        flex-basis: 0;
+        padding: 30px;
+    }
+
+    .paso1 .hero_info h1{
+        color: white;
+        font-size: 20px;
+        letter-spacing: 2px;
+        flex-basis: 0;
+    }
+
+    .paso1 .hero_info p{
+        text-align: center;
+        font-family: 'Yaldevi', sans-serif;
+        flex-basis: 0;
+        margin: 10px 10px 20px 10px;
+    }
+    /*fin paso1*/
+
+    /*paso2*/
+        .paso2{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #91ccd0;
+            border-radius: 20px;
+        }
+    
+        .paso2 .img_logo{
+            flex-grow: 1;
+            flex-basis: 0;
+            padding: 30px;
+        }
+    
+        .paso2 .hero_info h1{
+            color: white;
+            font-size: 20px;
+            letter-spacing: 2px;
+            flex-basis: 0;
+        }
+    
+        .paso2 .hero_info p{
+            text-align: center;
+            font-family: 'Yaldevi', sans-serif;
+            flex-basis: 0;
+            margin: 10px 10px 20px 10px;
+        }
+    /*fin paso2*/
+
+    
+    /*paso3*/
+        .paso3{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #91ccd0;
+            border-radius: 20px;
+        }
+
+        .paso3
+        .img_logo{
+            flex-grow: 1;
+            flex-basis: 0;
+            padding: 30px;
+        }
+
+        .paso3 .hero_info h1{
+            color: white;
+            font-size: 20px;
+            letter-spacing: 2px;
+            flex-basis: 0;
+        }
+
+        .paso3 .hero_info p{
+            text-align: center;
+            font-family: 'Yaldevi', sans-serif;
+            flex-basis: 0;
+            margin: 10px 10px 20px 10px;
+        }
+    /*fin paso3*/
+}
+
+/* ##Dispositivo = Smartphones galaxy fold de 200px a 319px */
+
+@media (min-width: 200px) and (max-width: 319px) {
+
+    /*paso1*/
+        .paso1{
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            width: 90%;
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #91ccd0;
+            border-radius: 20px;
+        }
+
+        .paso1 .img_logo{
+            flex-grow: 1;
+            flex-basis: 0;
+            padding: 30px;
+        }
+
+        .paso1 .hero_info h1{
+            color: white;
+            font-size: 20px;
+            letter-spacing: 2px;
+            flex-basis: 0;
+        }
+
+        .paso1 .hero_info p{
+            text-align: center;
+            font-family: 'Yaldevi', sans-serif;
+            flex-basis: 0;
+            font-size: 15px;
+            margin: 10px 10px 20px 10px;
+        }
+    /*fin paso1*/
+
+    /*paso2*/
+        .paso2{
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            width: 90%;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #91ccd0;
+            border-radius: 20px;
+        }
+
+        .paso2 .img_logo{
+            flex-grow: 1;
+            flex-basis: 0;
+            padding: 30px;
+        }
+
+        .paso2 .hero_info h1{
+            color: white;
+            font-size: 20px;
+            letter-spacing: 2px;
+            flex-basis: 0;
+        }
+
+        .paso2 .hero_info p{
+            text-align: center;
+            font-family: 'Yaldevi', sans-serif;
+            flex-basis: 0;
+            font-size: 15px;
+            margin: 10px 10px 20px 10px;
+        }
+    /*fin paso2*/
+
+    /*paso3*/
+        .paso3{
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            width: 90%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #91ccd0;
+            border-radius: 20px;
+        }
+
+        .paso3 .img_logo{
+            flex-grow: 1;
+            flex-basis: 0;
+            padding: 30px;
+        }
+
+        .paso3 .hero_info h1{
+            color: white;
+            font-size: 20px;
+            letter-spacing: 2px;
+            flex-basis: 0;
+        }
+
+        .paso3 .hero_info p{
+            text-align: center;
+            font-family: 'Yaldevi', sans-serif;
+            flex-basis: 0;
+            font-size: 15px;
+            margin: 10px 10px 20px 10px;
+        }
+    /*fin paso3*/
+}

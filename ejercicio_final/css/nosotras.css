@@ -1,0 +1,636 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Anton', sans-serif;
+}
+
+/*hero*/
+    .hero{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        background-color: #91ccd0;
+        border-radius: 20px;
+    }
+
+    .hero .hero_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+
+    .hero .img_logo{
+        flex-grow: 1;
+        flex-basis: 0;
+        padding: 40px;
+    }
+
+    .hero img{
+        width: 100%;
+        height: auto;
+    }
+
+    .hero .hero_info h1{
+        color: white;
+        font-size: 30px;
+        letter-spacing: 2px;
+        flex-basis: 0;
+    }
+
+    .hero .hero_info p{
+        text-align: center;
+        font-family: 'Yaldevi', sans-serif;
+        flex-basis: 0;
+        margin-left: 10px;
+    }
+/*fin hero*/
+
+/*cards*/
+    .cards{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .cards .cards_container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .cards .cards_container .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: 'Yaldevi', sans-serif;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+
+    .cards .cards_container .card:nth-child(1){
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    .cards .cards_container .card:nth-child(2){
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    .cards .cards_container .card .personas{
+        flex-wrap: wrap;
+        flex-basis: 0;
+        flex-grow: 1;
+        margin: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+    } 
+
+    .cards .cards_container .card .card_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+
+    .cards .cards_container .card .card_info h3{
+        text-align: center;
+        flex-basis: 0;
+        font-size: 20px;
+        font-family: 'Anton', sans-serif;
+    }
+
+    .cards .cards_container .card .card_info li{
+        display: inline;
+        justify-content: center;
+    }
+/*fin cards*/
+
+/*footer*/
+    footer{
+        border-radius: 15px 15px 0px 0px;
+        padding: 20px;
+        background-color: black;
+        color: #91ccd0;
+    }
+
+    footer .logo{
+        text-align: center;
+        display: block;
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    footer .socialmedia{
+        margin-left: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    footer .socialmedia a{
+        margin: 20px;
+    }
+
+    footer .socialmedia a img{
+        width: 30px;
+        height: 30px;
+    }
+/*fin footer*/
+    
+/* ##Dispositivo = Android, iPhone 6/7/8 - plus, x, 5/SE, Surface Duo (vertical) 320px to 730px */
+
+@media (min-width: 320px) and (max-width: 730px)  {
+
+    header{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        border-radius: 0px 0px 15px 15px;
+        padding: 20px 0px 10px;
+        margin-bottom: 30px;
+    }
+
+    header .menu{
+        display: flex;
+    }
+
+    header .menu li{
+        display: inline;
+    }
+
+    header .menu a{
+        color: white;
+        font-size: 15px;
+        margin: 0px 15px auto;
+    }
+
+    header .menu a:hover{
+        color: #91ccd0;
+        font-size: 15px;
+        margin: 0px 15px auto;
+    }
+
+    .logo{
+        font-size: 45px;
+        color: white;
+        margin: auto;
+    }
+
+    .logo u{
+        font-size: 45px;
+        color: #91ccd0;
+    }
+/*fin header*/
+
+/*hero*/
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 100px auto;
+        background-color: #91ccd0;
+        border-radius: 20px;
+    }
+
+    .hero .img_logo{
+        flex-grow: 1;
+        flex-basis: 0;
+        padding: 30px;
+    }
+
+    .hero .hero_info h1{
+        color: white;
+        font-size: 20px;
+        letter-spacing: 2px;
+        flex-basis: 0;
+    }
+
+    .hero .hero_info p{
+        text-align: center;
+        font-family: 'Yaldevi', sans-serif;
+        flex-basis: 0;
+        margin: 10px 10px 0px;
+    }
+/*fin hero*/
+
+/*cards*/
+    .cards{
+        margin-top: 90px;
+        margin-bottom: 20px;
+    }
+
+    .cards .cards_container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .cards .cards_container .card{
+        display: flex;
+        font-family: 'Yaldevi', sans-serif;
+        margin: 15px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-radius: 10px;
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+
+    .cards .cards_container .card:nth-child(1){
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    .cards .cards_container .card:nth-child(2){
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    .cards .cards_container .card .personas{
+        flex-wrap: wrap;
+        flex-basis: 0;
+        flex-grow: 1;
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .cards .cards_container .card .card_info h3{
+        text-align: center;
+        flex-basis: 0;
+        font-size: 20px;
+        font-family: 'Anton', sans-serif;
+    }
+
+    .cards .cards_container .card .card_info li{
+        display: inline;
+        justify-content: center;
+        font-size: 14px;
+    }
+/*fin cards*/
+
+/*footer*/
+    footer{
+        border-radius: 15px 15px 0px 0px;
+        padding: 20px;
+        background-color: black;
+        color: #91ccd0;
+    }
+
+    footer .logo{
+        text-align: center;
+        display: block;
+        font-size: 45px;
+        margin: 10px 0px auto;
+    }
+
+    footer .socialmedia{
+        margin: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    footer .socialmedia a{
+        margin: 20px;
+    }
+
+/*fin footer*/
+
+}
+
+/* ##Dispositivo = iPad, iPad pro de 731px a 1024px */
+
+@media (min-width: 731px) and (max-width: 1024px) {
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        border-radius: 0px 0px 15px 15px;
+        padding: 20px 0px 10px;
+        margin-bottom: 30px;
+    }
+
+    header .menu{
+        display: flex;
+        align-items: center;
+    }
+
+    header .menu li{
+        display: inline;
+    }
+
+    header .menu a{
+        color: white;
+        font-size: 17px;
+        margin: 0px 15px auto;
+    }
+
+    header .menu a:hover{
+        color: #91ccd0;
+        font-size: 15px;
+        margin: 0px 15px auto;
+    }
+
+    .logo{
+        font-size: 45px;
+        color: white;
+        margin: auto;
+    }
+
+    .logo u{
+        font-size: 45px;
+        color: #91ccd0;
+    }
+/*fin header*/
+
+/*hero*/
+    .hero{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 100px auto;
+        background-color: #91ccd0;
+        border-radius: 20px;
+    }
+
+    .hero .img_logo{
+        flex-grow: 1;
+        flex-basis: 0;
+        padding: 30px;
+    }
+
+    .hero .hero_info h1{
+        color: white;
+        font-size: 20px;
+        letter-spacing: 2px;
+        flex-basis: 0;
+    }
+
+    .hero .hero_info p{
+        text-align: center;
+        font-family: 'Yaldevi', sans-serif;
+        flex-basis: 0;
+        margin: 10px 10px 0px;
+    }
+/*fin hero*/
+
+/*cards*/
+    .cards{
+        margin-top: 90px;
+        margin-bottom: 20px;
+    }
+
+    .cards .cards_container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .cards .cards_container .card{
+        display: flex;
+        flex-direction: column-reverse;
+        font-family: 'Yaldevi', sans-serif;
+        margin: 15px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-radius: 10px;
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+
+    .cards .cards_container .card .personas{
+        flex-wrap: wrap;
+        flex-basis: 0;
+        flex-grow: 1;
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .cards .cards_container .card .card_info h3{
+        text-align: center;
+        flex-basis: 0;
+        font-size: 20px;
+        font-family: 'Anton', sans-serif;
+    }
+
+    .cards .cards_container .card .card_info li{
+        display: inline;
+        justify-content: center;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+/*fin cards*/
+
+/*footer*/
+    footer{
+        border-radius: 15px 15px 0px 0px;
+        padding: 20px;
+        background-color: black;
+        color: #91ccd0;
+    }
+
+    footer .logo{
+        text-align: center;
+        display: block;
+        font-size: 45px;
+        margin: 10px 0px auto;
+    }
+
+    footer .socialmedia{
+        margin: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    footer .socialmedia a{
+        margin: 20px;
+    }
+
+}
+
+/* ##Dispositivo = Smartphones galaxy fold de 200px a 319px */
+
+@media (min-width: 200px) and (max-width: 319px) {
+
+    header{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        border-radius: 0px 0px 15px 15px;
+        padding: 20px 0px 10px;
+        margin-bottom: 30px;
+    }
+
+    header .menu{
+        display: flex;
+    }
+
+    header .menu li{
+        display: inline;
+    }
+
+    header .menu a{
+        color: white;
+        font-size: 12px;
+        margin: 0px 15px auto;
+    }
+
+    header .menu a:hover{
+        color: #91ccd0;
+        font-size: 15px;
+        margin: 0px 15px auto;
+    }
+
+    .logo{
+        font-size: 45px;
+        color: white;
+        margin: auto;
+    }
+
+    .logo u{
+        font-size: 45px;
+        color: #91ccd0;
+    }
+/*fin header*/
+
+/*hero*/
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 100px auto;
+        background-color: #91ccd0;
+        border-radius: 20px;
+    }
+
+    .hero .img_logo{
+        flex-grow: 1;
+        flex-basis: 0;
+        padding: 30px;
+    }
+
+    .hero .hero_info h1{
+        color: white;
+        font-size: 20px;
+        letter-spacing: 2px;
+        flex-basis: 0;
+    }
+
+    .hero .hero_info p{
+        text-align: center;
+        font-family: 'Yaldevi', sans-serif;
+        flex-basis: 0;
+        font-size: 15px;
+        margin: 10px 10px 0px;
+    }
+
+/*fin hero*/
+
+/*cards*/
+    .cards{
+        margin-top: 90px;
+        margin-bottom: 20px;
+    }
+
+    .cards .cards_container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .cards .cards_container .card{
+        display: flex;
+        font-family: 'Yaldevi', sans-serif;
+        margin: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border-radius: 10px;
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+
+    .cards .cards_container .card .personas{
+        flex-wrap: wrap;
+        flex-basis: 0;
+        flex-grow: 1;
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .cards .cards_container .card .card_info h3{
+        text-align: center;
+        flex-basis: 0;
+        font-size: 15px;
+        font-family: 'Anton', sans-serif;
+    }
+
+    .cards .cards_container .card .card_info li{
+        display: inline;
+        justify-content: center;
+        font-size: 12px;
+    }
+/*fin cards*/
+
+/*footer*/
+    footer{
+        border-radius: 15px 15px 0px 0px;
+        padding: 20px;
+        background-color: black;
+        color: #91ccd0;
+    }
+
+    footer .logo{
+        text-align: center;
+        display: block;
+        font-size: 45px;
+        margin: 10px 0px auto;
+    }
+
+    footer .socialmedia{
+        margin: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    footer .socialmedia a{
+        margin: 20px;
+    }
+
+/*fin footer*/
+
+}
